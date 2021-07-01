@@ -4,7 +4,7 @@ import Proptipus from './Proptipus/Proptipus'
 function App() {
   return (
     <div className="App">
-      <Proptipus/>
+      <Proptipus />
     </div>
   );
 }

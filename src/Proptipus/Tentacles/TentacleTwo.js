@@ -17,22 +17,22 @@ class TentacleTwo extends React.Component {
     return (
       <div className="tentacle-two">
       <span className="fish-name">
-        { null /* Fish name goes here */}
+        {this.props.favoriteFishGiOhCard.name}
       </span>
 
       <img alt="fish" className="fish-image" 
-      src={ tempImg /* Fish image goes here */} />
+      src={this.props.favoriteFishGiOhCard.image} />
 
       <span className="fish-type">
-        { null /* Fish type goes here */}
+        {this.props.favoriteFishGiOhCard.type}
       </span>
 
       <span className="fish-description">
-        { null /* Fish description goes here */}
+        {this.props.favoriteFishGiOhCard.description}
       </span>
 
       <span className="fish-attack">
-        { null /* Fish attack goes here */}
+        {this.props.favoriteFishGiOhCard.attack}
       </span>
 
     </div>
